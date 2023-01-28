@@ -68,7 +68,7 @@ useful services in oreder to bring the robot to the given position.The position 
 
 1. Create a workspace
 
-2. Git clone
+2. Git clone (https://github.com/jodebelle/RT-Assignment-2)
 
 3. catkin_make to ensure the files are executable
 
