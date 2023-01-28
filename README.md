@@ -20,7 +20,7 @@ We were provided with an implementation of an action server that moves a robot i
 
 - `wall_follow_service.py`implements also a service node. It helps the robot avoiding obstacles by making it moving along/around them.
  
-- `action_client.py` (node a) implements the action client node that will ask the user to enter two coordinates (x,y). Then, it will publish the position and velocity of the robot as a custom message on the /Posevelocity topic, getting the values from the `/odom` topic. This node is better explained in the pseudo-code:
+- `action_client.py` (node a) implements the action client node that will ask the user to enter two coordinates (x,y). Then, it will publish the position and velocity of the robot as a custom message on the /Posevelocity topic, getting the values from the `/odom` topic.
  
 - `service.py` (node b) implements a service node. When the node is called,it prints how many times a desired position was reached or cancelled.
 
